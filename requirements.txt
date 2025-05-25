@@ -1,40 +1,15 @@
-#### INSTALLATIONS LINUX #####
-# sudo apt update
-# sudo apt install python3 python3-venv python3-pip
-# python3 -m venv st_venv
-# source st_venv/bin/activate
-#
-# pip install -r requirements.txt
-# streamlit run connexion.py --browser.gatherUsageStats False --server.address 0.0.0.0
-# deactivate
-
+altair==5.5.0
 duckdb==1.2.1
-python-dotenv==1.0.1
-python-multipart==0.0.20
-streamlit==1.43.2
-streamlit-chat==0.1.0
-streamlit-authenticator
-altair<5
-openai==0.28
-#streamlit-multipage==0.0.18
-typing_extensions
-requests==2.32.3
-requests-toolbelt==0.9.1
-plotly==6.0.0
-urllib3==2.3.0
-uvicorn==0.34.0
-
+fastapi==0.115.11
+fastapi-cli==0.0.7
 numpy==2.2.3
 pandas==2.2.3
-#protobuf==3.12.2
-    # ERROR : streamlit 1.16.0 depends on protobuf<4 and >=3.12
-    # ERROR : tensorflow 2.11.0 depends on protobuf<3.20 and >=3.9.2
-    #  => 3.12<=protobuf<3.20
-tap2junit==0.1.6 # for test_anything_protocols
-
-#tensorboard==2.11.1
-tensorflow==2.11.0
-
-
-
-
+pillow==11.1.0
+plotly==6.0.0
+python-dateutil==2.9.0.post0
+python-dotenv==1.0.1
+python-multipart==0.0.20
+requests==2.32.3
+streamlit==1.43.2
+urllib3==2.3.0
+uvicorn==0.34.0
