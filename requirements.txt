@@ -17,7 +17,7 @@ uvicorn==0.34.0
 
 
 
-#streamlit-chat==0.1.0
+streamlit-chat==0.1.0
 #openai==0.28
 #typing_extensions==4.11.0
 
