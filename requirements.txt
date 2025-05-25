@@ -21,6 +21,6 @@ streamlit-chat==0.1.0
 openai==0.28
 typing_extensions==4.11.0
 
-requests-toolbelt==0.9.1
+#requests-toolbelt==0.9.1
 urllib3==2.3.0
 tensorflow
